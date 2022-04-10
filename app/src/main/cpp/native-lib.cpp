@@ -160,3 +160,11 @@ Java_com_example_video_1audio_GifHelper_destroy(JNIEnv *env, jobject thiz, jlong
     }
     ptr = NULL;
 }
+
+extern "C"
+JNIEXPORT jboolean JNICALL
+Java_com_example_video_1audio_OpenESLsUtils_init(JNIEnv *env, jobject thiz) {
+    // TODO: implement init()
+
+    return 1;
+}

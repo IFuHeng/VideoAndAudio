@@ -36,6 +36,5 @@ public class Utils {
             cursor.close();
         }
         return filePath;
-
     }
 }

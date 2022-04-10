@@ -24,6 +24,7 @@ add_library( # Sets the name of the library.
         native-lib.cpp
         dgif_lib.c
         gifalloc.c
+        testOpenSL.c
         )
 
 # Searches for a specified prebuilt library and stores the path as a
@@ -56,4 +57,5 @@ target_link_libraries( # Specifies the target library.
         # Links the target library to the log library
         # included in the NDK.
         ${log-lib}
+        OpenSLES
         ${jnigraphics-lib})
